@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:100|Advent+Pro:100,300|Raleway:200,400' rel='stylesheet' type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>
+		WESO
+	</title>
+	<link rel="stylesheet" href="static/css/style.css" type="text/css" media="screen"></link>
+	<link rel="shortcut icon" href="favicon.ico"></link>
+</head>
+<body>
+
+	<div class="navigation">
+		<nav class="navigation">
+			<span class="weso">WESO</span>
+			<img alt="" src="static/img/circle.png" />
+			<a class="home" href="#home">{{#labels}}{{home}}{{/labels}}</a> |
+			<a class="projects" href="#projects">{{#labels}}{{projects}}{{/labels}}</a> |
+			<a class="research" href="#research">{{#labels}}{{research}}{{/labels}}</a> |
+			<a class="software" href="#software">{{#labels}}{{software}}{{/labels}}</a> |
+			<a class="people" href="#people">{{#labels}}{{people}}{{/labels}}</a> |
+			<a class="contact" href="#contact">{{#labels}}{{contact}}{{/labels}}</a>
+		</nav>
+	</div>
+
+	<div class="panel panel-home">
+		<a id="home" class="home">home</a>
+		<nav class="languages">
+			{{#languages}}
+				<a
+					{{#selected}}
+						class="language"
+					{{/selected}}
+					{{^selected}}
+						class="language language-not-selected"
+					{{/selected}}
+					href="?language={{code}}">
+					{{code}}
+				</a>
+			{{/languages}}
+		</nav>
+
+		<div class="content">
+			<h1>{{#labels}}{{title}}{{/labels}}</h1>
+			<h2>{{#labels}}{{subtitle}}{{/labels}}</h2>
+
+			<div class="circles">
+				<img alt="" class="circle izquierda" src="static/img/weso_logo.png" />
+
+				<div class="semantics interno">
+					<p class="normal">Web</p>
+					<p class="normal">Semantics</p>
+					<p class="normal">Oviedo</p>
+				</div>
+				<a href="https://maps.google.es/maps?q=Facultad+de+Ciencias,+Universidad+de+Oviedo,+Calle+de+Calvo+Sotelo,+33007+Oviedo,+Asturias,+Principado+de+Asturias&amp;hl=es&amp;ll=43.356779,-5.852795&amp;spn=0.013059,0.01929&amp;sll=43.357201,-5.852805&amp;sspn=0.006529,0.009645&amp;hq=Facultad+de+Ciencias,+Universidad+de+Oviedo,+Calle+de+Calvo+Sotelo,+33007+Oviedo,+Asturias,+Principado+de+Asturias&amp;t=m&amp;z=16" title="Weso Location in Google Maps"><img src="http://maps.googleapis.com/maps/api/staticmap?center=43.3586170,-5.850186000000051&amp;size=160x160&amp;sensor=true&amp;zoom=14&amp;markers=43.3576493,-5.853186000000051" alt="WESO Headquartes Location" class="map circle interno"></a>
+				<a href="http://www.mendeley.com/groups/{{mendeley}}"
+					title="Mendeley Software">
+					<img alt="" src="static/img/mendeley.png" class="circle interno mendeley">
+				</a>
+				<a href="http://es.linkedin.com/company/{{linkedin}}"
+					title="Linkedin">
+					<img src="static/img/linkedin2.png" alt="" class="circle interno social linkedin" />
+				</a>
+				<a href="http://twitter.com/{{twitter-account}}"
+					title="Twitter">
+					<img src="static/img/twitter.png" alt="" class="circle derecha social twitter" />
+				</a>
+			</div>
+
+			<div id="text" class="columns">
+				<div class="column1">
+					<p>
+						{{#labels}}{{{introduction}}}{{/labels}}
+					</p>
+				</div>
+
+				<div class="column2">
+					<table class="twitter pages">
+						{{#tweets}}
+							<tr>
+								<td class="user">
+									<a href="http://twitter.com/{{#user}}{{account}}{{/user}}">
+										<img class="user" alt="" src="{{#user}}{{image}}{{/user}}" />
+									</a>
+								</td>
+								<td class="news">
+									<p>
+										<a href="{{#user}}{{account}}{{/user}}">
+											<strong>{{#user}}{{name}}{{/user}}</strong>
+										</a>
+										<a href="{{#user}}{{account}}{{/user}}">
+											@{{#user}}{{account}}{{/user}}
+										</a>
+									</p>
+									<p class="text">
+										{{{text}}}
+									</p>
+									<p class="date">
+										{{date}}
+									</p>
+								</td>
+							</tr>
+						{{/tweets}}
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div class="bottom"><img alt="" src="static/img/bottom.png"></div>
+	</div><a id="projects"></a>
+
+	<div class="panel panel1">
+		<div class="content text-marron">
+			<h3 class="projects">{{#labels}}{{{projects}}}{{/labels}}</h3>
+
+			<div class="projects">
+				{{#projects}}
+						<div class="project-element">
+							<h4>
+								{{#url}}
+									<a href="{{url}}" title="{{#labels}}{{{ir}}}{{/labels}} {{name}}">{{name}}</a>
+								{{/url}}
+								{{^url}}
+									{{name}}
+								{{/url}}
+							</h4>
+							<p>
+								{{> label}}
+							</p>
+						</div>
+				{{/projects}}
+			</div>
+		</div>
+
+		<div class="bottom"><img alt="" src="static/img/bottom2.png"></div>
+	</div><a id="research"></a>
+
+	<div class="panel panel2">
+		<div class="content">
+			<h3 class="research">{{#labels}}{{{research}}}{{/labels}}</h3>
+			<div class="center">
+				<a class="mendeley" href="http://www.mendeley.com/groups/{{mendeley}}"
+					title="Mendeley">
+					<img alt="" src="static/img/mendeley-logo.png">
+				</a>
+			</div>
+			<table class="research">
+				{{#papers}}
+					<tr>
+						<td>
+							<a name="research_{{year}}"></a>
+							<div class="year">{{year}}</div>
+						</td>
+					</tr>
+					{{#documents}}
+						<tr>
+							<td class="title">
+								{{#url}}
+									<a href="{{url}}" title="{{#labels}}{{{goto}}}{{/labels}} {{title}}">
+										{{title}}
+									</a>
+								{{/url}}
+								{{^url}}
+									{{title}}
+								{{/url}}
+							</td>
+						</tr>
+
+						<tr>
+							<td class="authors">
+								{{author_list}}
+							</td>
+						</tr>
+						<tr class="type">
+							{{#type}}
+								<td class="type"><span class="type">{{type}}</span></td>
+							{{/type}}
+							{{^type}}
+								<td></td>
+							{{/type}}
+						</tr>
+					{{/documents}}
+				{{/papers}}
+			</table>
+		</div>
+		<div class="bottom"><img alt="" src="static/img/bottom2.png"></div>
+	</div><a id="software"></a>
+
+	<div class="panel panel1">
+		<div class="content text-marron">
+			<h3 class="software">{{#labels}}{{{software}}}{{/labels}}</h3>
+			<a class="github" href="http://github.com/{{github}}">
+				<img src="static/img/github-logo.png" />
+			</a>
+			<a class="github" href="http://github.com/{{github}}">
+				<img src="static/img/github.png" />
+			</a>
+
+			{{#softwares}}
+				<div class="software-element">
+					<h4>
+						{{#url}}
+							<a href="{{url}}" title="{{#labels}}{{{goto}}}{{/labels}} {{name}}">{{name}}</a>
+						{{/url}}
+						{{^url}}
+							{{name}}
+						{{/url}}
+					</h4>
+					<p>
+						{{> label}}
+					</p>
+				</div>
+			{{/softwares}}
+		</div>
+
+		<div class="bottom"><img alt="" src="static/img/bottom2.png"></div>
+	</div><a id="people"></a>
+
+	<div class="panel panel2">
+		<div class="content">
+			<h3 class="people">{{#labels}}{{{people}}}{{/labels}}</h3>
+			<h4 class="people">{{#labels}}{{{members}}}{{/labels}}</h3>
+			<div class="circles-people-text">
+				{{#members}}
+					{{> people}}
+				{{/members}}
+			</div>
+			<h4 class="people">{{#labels}}{{{collaborators}}}{{/labels}}</h3>
+			<div class="circles-people-text">
+				{{#collaborators}}
+					{{> people}}
+				{{/collaborators}}
+			</div>
+		</div>
+	</div>
+
+	<a id="contact"></a>
+	<footer>
+		<div class="content">
+			<div>
+				<div class="address">
+					<h3 class="contact">{{#labels}}{{{where}}}{{/labels}}</h3>
+					<div>
+						<p><strong>{{address_1}}</strong></p>
+						<p>{{address_2}}</p>
+						<p><strong>{{address_3}}</strong></p>
+					</div>
+					<div>
+						<p>{{address_4}}</p>
+						<p>{{address_5}}</p>
+						<p>{{#labels}}{{{spain}}}{{/labels}}</p>
+					</div>
+				</div>
+
+				<div class="phone-mail">
+					<div class="phone-mail-circle mail">
+						<a href="mailto:{{email}}">
+							{{email}}
+						</a>
+					</div>
+					<div class="phone-mail-circle phone">
+						{{phone}}
+					</div>
+				</div>
+
+				<div class="form-contact">
+					<form id="contact-form" method="post" action="php/send.php">
+						<label for="correo">{{#labels}}{{{email}}}{{/labels}}</label>
+						<input type="text" name="email" placeholder="{{#labels}}{{{whatsemail}}}{{/labels}}" />
+						<label for="asunto">{{#labels}}{{{subject}}}{{/labels}}</label>
+						<input type="text" name="subject" placeholder="{{#labels}}{{{wanttoask}}}{{/labels}}" />
+						<label for="cuerpo">{{#labels}}{{{description}}}{{/labels}}</label>
+						<textarea name="description"></textarea>
+
+						<!-- Captcha -->
+						<script type="text/javascript">
+ 							var RecaptchaOptions = {
+    							theme : 'white'
+ 							};
+ 						</script>
+						  <script type="text/javascript"
+							 src="http://www.google.com/recaptcha/api/challenge?k=6Lfr9u4SAAAAAN0gsx9BZpvZ7YZW6ay_oQ9mz80X">
+						  </script>
+						  <noscript>
+							 <iframe src="http://www.google.com/recaptcha/api/noscript?k=6Lfr9u4SAAAAAN0gsx9BZpvZ7YZW6ay_oQ9mz80X"
+								 height="300" width="500" frameborder="0"></iframe><br>
+							 <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+							 </textarea>
+							 <input type="hidden" name="recaptcha_response_field"
+								 value="manual_challenge">
+						  </noscript>
+
+						<input id="contact-form-button" type="submit" value="{{#labels}}{{{send}}}{{/labels}}" />
+					</form>
+				</div>
+			</div>
+			<div class="created-by">
+				<img class="html5-css3" alt="{{#labels}}{{{createdin}}}{{/labels}}" src="static/img/HTML5-CSS3.png" />
+				{{#labels}}{{{createdby}}}{{/labels}} <a href="http://juancastro.es" title="{{#labels}}{{{goto}}}{{/labels}} juancastro.es">
+								<img class="created" alt="{{#labels}}{{{createdby}}}{{/labels}} JUAN CASTRO" src="static/img/juancastro.png" />
+												</a>
+			</div>
+		</div>
+	</footer>
+	<script src="static/js/jquery.js"></script>
+	<script src="static/js/scrolledIntoView.js"></script>
+	<script>
+		$('.content h3, .panel-home #home')
+			  .scrolledIntoView()
+			  .on('scrolledin', function () {
+					  console.log( 'in '+$(this).text() );
+					  $("nav.navigation a").removeClass("selected");
+					  $("nav.navigation a." + $(this).attr('class')).addClass("selected");
+			  })
+			  .on('scrolledout', function () {
+					  console.log( 'out '+$(this).text() ); });
+
+		document.getElementById("contact-form").action = "";
+
+		document.getElementById("contact-form-button").onclick = function() {
+			var button = this;
+
+			button.disabled = true;
+			button.value = "{{#labels}}{{{sending}}}{{/labels}}";
+			button.className = "sending";
+
+			function onError(captcha) {
+				if (captcha)
+					button.value = "{{#labels}}{{{captcha}}}{{/labels}}";
+				else
+					button.value = "{{#labels}}{{{notsent}}}{{/labels}}";
+				button.className = "not-sent";
+				button.disabled = false;
+			}
+
+			$.ajax({
+				type: "POST",
+				url: "php/send.php",
+				data: $("#contact-form").serialize(),
+				success: function(msg) {
+					if (msg != "OK") {
+						onError(msg == 'captcha');
+					}
+					else {
+						button.value = "{{#labels}}{{{sent}}}{{/labels}}";
+						button.className = "sent";
+						button.disabled = false;
+						$('#contact-form')[0].reset();
+
+						setTimeout(function() {
+							button.value = "{{#labels}}{{{send}}}{{/labels}}";
+						}, 2000);
+					}
+				},
+				error: function (xhr, ajaxOptions, thrownError) {
+					onError();
+      			}
+			});
+
+			return false;
+	 	}
+	</script>
+	<script src="static/js/richTable.js"></script>
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"url": "http://www.weso.es",
+		"logo": "http://www.weso.es/static/img/weso_logo.png",
+		"address": {
+			"@type": "PostalAddress",
+			"addressCountry": "Spain",
+			"addressLocality": "Oviedo",
+			"addressRegion": "Asturias",
+			"postalCode": "33007",
+			"streetAddress": "C/ Calvo Sotelo S/N"
+		},
+		"email": "info@weso.es",
+		"name": [
+			"WESO",
+			"Web Semantics Oviedo",
+			"WESO (Web Semantics Oviedo)"
+		],
+		"telephone": "+34 985 10 33 97",
+		"memberOf": "http://www.uniovi.es",
+		"sameAs": [
+			"http://www.mendeley.com/groups/748461",
+			"http://es.linkedin.com/company/weso-web-semantics-oviedo",
+			"http://twitter.com/wesoviedo"
+		],
+		"url": "http://www.weso.es",
+		"mainEntityOfPage": "http://www.weso.es"
+	}
+	</script>
+</body>
+</html>

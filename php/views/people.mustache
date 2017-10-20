@@ -1,0 +1,52 @@
+<div class="person">	
+	{{#website}}
+		<a href="{{website}}" title="{{#labels}}{{{goto}}}{{/labels}} {{name}}">
+			<img src="static/img/people/{{image}}" alt="" class="circle imagen" />
+		</a>
+	{{/website}}
+	{{^website}}
+		<img src="static/img/people/{{image}}" alt="" class="circle imagen" />
+	{{/website}}
+	<div>
+		<p>
+			{{#website}}
+				<a class="name" href="{{website}}" title="{{#labels}}{{{goto}}}{{/labels}} {{name}}">
+					{{name}}
+				</a>
+			{{/website}}
+			{{^website}}
+				{{name}}
+			{{/website}}
+		</p>	
+		{{#posts}}
+			<span class="cargo">{{> label}}</span>
+		{{/posts}}
+		
+		{{#email}}
+			<a href="mailto:{{email}}">
+				<span class="mail"><i class="fa fa-envelope"></i> {{email}}</span>
+			</a>
+		{{/email}}
+		{{#twitter}}
+			<span class="twitter">
+				<a href="http://www.twitter.com/{{twitter}}" title="{{#labels}}{{{goto}}}{{/labels}} Twitter">
+					<i class="fa fa-twitter"></i> @{{twitter}}
+				</a>
+			</span>
+		{{/twitter}}
+		{{#linkedIN}}
+			<span class="linkedin">
+				<a href="https://es.linkedin.com/{{linkedIN}}" title="{{#labels}}{{{goto}}}{{/labels}} LinkedIn">
+					<i class="fa fa-linkedin"></i>{{short_name}}
+				</a>
+			</span>
+		{{/linkedIN}}
+		{{#linkedINnewURL}}
+			<span class="linkedin">
+				<a href="{{linkedINnewURL}}" title="{{#labels}}{{{goto}}}{{/labels}} LinkedIn">
+					<i class="fa fa-linkedin"></i>{{short_name}}
+				</a>
+			</span>
+		{{/linkedINnewURL}}
+	</div>
+</div>

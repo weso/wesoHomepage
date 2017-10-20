@@ -1,0 +1,27 @@
+Estructura del proyecto
+***********************
+
+- Data: ficheros JSON con datos
+	- data.json: datos de la página (proyectos, miembros...)
+	- mail.json: configuración de la cuenta de correo del formulario inferior.
+- favicon.ico: icono del sitio
+- index.php: fichero de entrada, recoge datos de la página, tweets y artículos de Mendeley y renderiza la vista.
+- MLODPatters: patrones de multilingüismo
+- php: código del sitio
+	- Mendeley: código de extracción de artículos de Mendeley
+	- Mustache: implementación de Mustache en PHP. Renderizado de plantillas.
+	- send.php: envío de correos del formulario inferior.
+	- Twitter: acceso al API de Twitter para obtener tweets.
+- static: ficheros estáticos
+	- css
+	- img
+	- js
+		- richTable.js: paginado de tablas
+		- jquery.js
+		- scrolledIntoView.js: permite marcar en la navegación superior el elemento visible.
+	- lang: ficheros JSON con la internacionalización del sitio. Los idiomas deben definirse en el fichero data.json
+- tmp: carpeta temporal donde se almacena un JSON con artículos de Mendeley, se consulta el API una vez por día, el resto de veces se consumen los datos del fichero. Se hace así porque el número de conexiones al API es limitado.
+- views
+	- label.mustache: helper para internacionalización
+	- index.mustache: plantilla principal
+	- people.mustache: helper para miembros

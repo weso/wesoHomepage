@@ -1,0 +1,550 @@
+{
+	"languages": [
+		{
+			"code": "en",
+			"name": "english"
+		},
+		{
+			"code": "es",
+			"name": "español"
+		}
+	],
+	"mendeley": "748461",
+	"linkedin": "weso-web-semantics-oviedo",
+	"twitter-account": "wesoviedo",
+	"github": "weso",
+	"address_1": "Facultad de Ciencias",
+	"address_2": "Departamento de Informática",
+	"address_3": "Universidad de Oviedo",
+	"address_4": "Calvo Sotelo, S/N,",
+	"address_5": "33005, Oviedo - Principado de Asturias",
+	"email": "info@weso.es",
+	"phone": "+34 985 10 33 97",
+	"projects" : [
+		{
+			"name": "Web Index",
+			"url": "http://thewebindex.org/",
+			"translations": {
+				"en": "Designed and produced by the World Wide Web Foundation, the Web Index is the world’s first measure of the World Wide Web’s contribution to social, economic and political progress in countries across the world. WESO has contributed to the project developing the portal and managing linked data for 2014 and older editions.",
+				"es": "Diseñado y producido por la Fundación World Wide Web, Web Index consiste en la primera métrica mundial referida al progreso político, económico y social en distintos países aportada por la World Wide Web. WESO ha contribuido al proyecto en el desarrollo del portal y el manejo de linked data en las ediciones de 2014 y anteriores."
+			}
+		},
+		{
+			"name": "Landportal",
+			"url": "http://landportal.info/",
+			"translations": {
+				"en": "The Portal allows for the collection, sourcing, and searching of otherwise fragmented and inaccessible data and information on land governance and land use from diverse sources, produced by governments, academia, international organizations, indigenous people and NGOs. WESO has participated in the web development.",
+				"es": "El Portal permite la colecta, búsqueda y comparación de datos referidos al uso y governanza de la tierra que de otra forma permanecerían fragmentados o inaccesibles. La información procede de fuentes diversas, invluyendo gobiernos, organizaciones internacionales, academias y ONGs. WESO ha participado en el desarrollo de la web."
+			}
+		},
+		{
+			"name": "Orbita",
+			"translations": {
+				"en": "In ORBITA we provide a dynamic dataset visualization system in which the information could be represented in diferentes ways and having into account different user profiles. This will provide the data management to perform entity reconciliation, filtering, searching and sorting tasks.",
+				"es": "En ORBITA proveemos un sistema de visualización de conjuntos de datos dinámicos en el cual la información se representa de diversas formas y se tienen en cuenta diferentes perfiles de usuario. Todo esto permite administrar los datos para conseguir tareas de reconciliación de entidades, filtrado, búsqueda y ordenación."
+			}
+		},
+		{
+			"name": "Urban-RED",
+			"translations": {
+				"en": "Urban-RED is funded by Call of Energizing Actions \"Networks of Excellence\" of the Spanish Ministry of Economy and Competitiveness. Urban-RED aims to promote reserch activity about sustainable urban development.",
+				"es": "Urban-RED es un proyecto enmarcado en la Convocatoria de Acciones de dinamización \"Redes de Excelencia\", del Programa Estatal de Investigación Científica y Técnica de Excelencia. Busca impulsar las actividades de investigación en torno al desarrollo urbano sostenible."
+			}
+		},
+		{
+			"name": "RETINAS",
+			"translations": {
+				"en": "The main objective of RETINAS consist in research about techonologies of real time video analysis, semantic technologies and Soft Computing techniques ir order to be used in intelligent monitoring systems in heterogeneous environments.",
+				"es": "El objetivo principal de RETINAS consiste en la investigación sobre tecnologías de análisis de vídeo en tiempo real, tecnologías semánticas y técnicas de Soft Computing para ser usadas en sistemas de monitorización inteligente en entornos heterogéneos."
+			}
+		},
+		{
+			"name": "ROCAS",
+			"translations": {
+				"en": "The goal of ROCAS is to provide a distributed semantic reasoning system based on cloud computing where each node is able to cooperate with others in the reasoning process.This approach is independent of the inference engines used and it suggests division and distribution of task between nodes to complete inference processes.",
+				"es": "El objetivo de ROCAS consiste en proveer un sistema distribuido de inferencia semántica basado en cloud computing donde cada nodo es capaz de cooperar con el resto en el proceso de inferencia. Este acercamiento es independiente de los motores de inferencia utilizados y propone la división de tareas a completar entre los distintos nodos."
+			}
+		},
+		{
+			"name": "ORIGIN",
+			"translations": {
+				"en": "This project is focused in increasing the productivity in software development activities in outsourcing global scenarios as well as the improvement of the quality of the developed software.",
+				"es": "Este proyecto se centra en la optimización de la productividad de actividades de desarrollo de software en escenarios con subcontratación a escala internacional, así como la mejora de la calidad del software producido."
+			}
+		},
+		{
+			"name": "10ders",
+			"translations": {
+				"en": "The aim of this project is to show the activities to be performed in 10ders Project on e-Procurement. The platform planned by 10ders Project is intend to fulfill the needs of e-procurement at European, national and regional levels.",
+				"es": "El objetivo de este proyecto radica en mostrar actividades a realizar en el proyecto 10ders dentro de la adquisición electrónica. La plataforma diseñada por el proyecto 10ders intenta cubrir las necesidades de adquisición electrónica a nivel regional, nacional y europeo."
+			}
+		},
+		{
+			"name": "MLOD Patterns",
+			"url": "http://www.weso.es/MLODPatterns",
+			"translations": {
+				"en": "Multilingual Linked Open Data Patterns.",
+				"es": "Patrones de multiligüismo en datos enlazados abiertos - Multilingual Linked Open Data Patterns."
+			}
+		},
+		{
+			"name": "Computex",
+			"url": "https://github.com/weso/computex",
+			"translations": {
+				"en": "Computex (Computing Statistical Indexes) can be seen as an extension of RDF Data Cube vocabulary to handle statistical indexes.",
+				"es": "Computex (Computing Statistical Indexes) puede ser utilizado como una extensión del vocabulario RDF Data Cube para el manejo de datos estadísticos sobre índices."
+			}
+		}
+	],
+	"softwares" : [
+		{
+			"name": "Shaclex",
+			"url": "http://labra.github.io/shaclex/",
+			"translations": {
+				"en": "Shaclex is an implementation of SHACL and ShEx using a purely functional approach based on Monads.",
+				"es": "Shaclex es una implementación de SHACL y ShEx usando programación funcional basada en mónadas."
+			}
+		},
+		{
+			"name": "Wesby",
+			"url": "https://github.com/weso/Wesby",
+			"translations": {
+				"en": "Wesby is a linked data frontend that wraps your RDF resources with custom-built interfaces, effectively turning your SPARQL endpoints into rich HTML5 websites.",
+				"es": "Wesby es un frontend para la presentación de datos RDF en interfaces personalizables, transformando de esta forma endpoints de SPARQL en webs HTML5 enriquecidas."
+			}
+		},
+		{
+			"name": "WesCountry",
+			"url": "https://github.com/weso/wesCountry",
+			"translations": {
+				"en": "WesCountry is a library for data visualization that includes several types of charts as well as maps to compare countries.",
+				"es": "WesCountry es una librería para la visualización de datos que incluye varios tipos de gráficas además de soporte a mapas para la comparación entre países."
+			}
+		},
+		{
+			"name": "MOLDEAS",
+			"url": "http://purl.org/weso/moldeas-web",
+			"translations": {
+				"en": "It is part of project 10ders. It is a simple web interface to search public procurement notices that receives a set of CPV codes and a set of NUTS codes as input parameters. The result is presented using the classical tabular view and an EXHIBIT interface is also provided in order to get a faceted view of the results.",
+				"es": "Es parte del proyecto 10ders. Consiste en una interfaz web simple para buscar noticias públicas de adquisición que recibe un conjunto de códigos CPV y un conjunto de códigos NUTS como parámetros de entrada. El resultado se presenta usando vistas tabulares clásicas e interfaces EXHIBIT para maquetar los resultados. "
+			}
+		},
+		{
+			"name": "ONTOSPREAD",
+			"url": "http://code.google.com/p/ontospread",
+			"translations": {
+				"en": "It is a Java API for the development, configuration, customization and execution of the Spreading Activation techniques in the field of the Semantic Web. These techniques have been used for the efficient exploration of knowledge bases built on semantic networks in Information or Document Retrieval problems.",
+				"es": "Es una API en Java para el desarrollo, configuración, personalización y ejecución de técnicas de Spreading Activation en el campo de la web semántica. Estas técnicas han sido utilizadas para la exploración eficiente de bases de datos de conocimiento construidas sobre redes semánticas en problemas de recuperación de documentos e información."
+			}
+		},
+		{
+			"name": "ACOTA",
+			"url": "https://github.com/weso/acota-core",
+			"translations": {
+				"en": "ACOTA (Automatic Collaborative Tagging). It is a Java-based library for suggesting tags in a collaborative and automatic way. It is based on the use of ontologies to manage the tags and provide advanced services of automatic learning, reasoning, etc. It is supposed to be a component to implement the knowledge management with folksonomies.",
+				"es": "ACOTA (Automatic Collaborative Tagging - Etiquetado colaborativo automático). Es una librería realizada en Java para la sugerencia de etiquetas de forma automática y colaborativa. Se basa en el uso de ontologías para gestionar las etiquetas y proveer de servicios avanzados de aprendizaje automático, razonamiento, etc. Se ha creado para ser un componente en la implementación de gestión de conocimiento con folksonomías."
+			}
+		},
+		{
+			"name": "CWR-Validator",
+			"url": "https://github.com/weso/CWR-Validator",
+			"translations": {
+				"en": "Service for parsing and processing data from Common Works Registration (CWR) standard formats",
+				"es": "Servicio para el parseo y procesamiento de datos en formato Common Works Registration (CWR)."
+			}
+		},
+		{
+			"name": "wMERA",
+			"url": "https://github.com/DaniFdezAlvarez/wMERA",
+			"translations": {
+				"en": "MERA (Musical Entities Reconciliation Architecture) consist of an architecture highly configurable designed to link music-related datasuources using string comparison techniques and semantic technologies. wMERA is a prototype of MERA.",
+				"es": "MERA (Musical Entities Reconciliation Architecture) consiste en la arquitectura de un sistema altamente configurable para la reconciliación de fuentes de datos relacionadas con el mundo de la música. Combina técnicas de comparaciçon y tecnologías semánticas. wMERA es un prototipo de MERA."
+			}
+		},
+		{
+			"name": "WESO",
+			"url": "http://code.google.com/p/weso",
+			"translations": {
+				"en": "It is the main repository for storing documentation, common source code, etc.",
+				"es": "Repositorio principal para almacenar documentación, código fuente común, etc."
+			}
+		}
+	],
+	"members": [
+		{
+			"name": "José Emilio Labra Gayo",
+			"short_name": "José Emilio Labra",
+			"image": "labra.png",
+			"posts": [
+				{
+					"translations": {
+						"en": "Main researcher",
+						"es": "Investigador principal"
+					}
+				},
+				{
+					"translations": {
+						"en": "Assistant Professor",
+						"es": "Profesor asociado"
+					}
+				}
+			],
+			"email": "jelabra@weso.es",
+			"phone": "+34 985103397",
+			"website": "http://di002.edv.uniovi.es/~labra",
+			"twitter": "jelabra",
+			"linkedIN": "in/jelabra/es"
+		},
+		{
+			"name": "Daniel Gayo Avello",
+			"short_name": "Daniel Gayo",
+			"image": "gayo.png",
+			"posts": [
+				{
+					"translations": {
+						"en": "PhD",
+						"es": "Doctor"
+					}
+				},
+				{
+					"translations": {
+						"en": "Assistant Professor",
+						"es": "Profesor asociado"
+					}
+				}
+			],
+			"email": "dani@uniovi.es",
+			"phone": "+34 985103397",
+			"website": "http://di002.edv.uniovi.es/~dani",
+			"twitter": "PFCdgayo",
+			"linkedIN": "in/danielgayoavello/es"
+		},
+		{
+			"name": "Patricia Ordóñez De Pablos",
+			"short_name": "Patricia Ordoñez",
+			"image": "patricia.png",
+			"posts": [
+				{
+					"translations": {
+						"en": "PhD",
+						"es": "Doctora"
+					}
+				},
+				{
+					"translations": {
+						"en": "Assistant Professor",
+						"es": "Profesor asociado"
+					}
+				}
+			],
+			"email": "patriop@uniovi.es"
+		},
+		{
+			"name": "Juan Luis Mateo Cerdán",
+			"short_name": "Juan L Mateo",
+			"image": "juan_luis.jpeg",
+			"posts": [
+				{
+					"translations": {
+						"en": "PhD",
+						"es": "Doctor"
+					}
+				},
+				{
+					"translations": {
+						"en": "Assistant Professor",
+						"es": "Profesor asociado"
+					}
+				}
+			],
+			"email": "mateojuan@uniovi.es",
+			"website": "https://juanlmateo.bitbucket.io/",
+			"linkedINnewURL": "https://www.linkedin.com/in/juanlmateo",
+			"twitter": "JuanLMateo1"
+
+		},
+		{
+			"name": "Daniel Fernández Álvarez",
+			"short_name": "Daniel Fernández",
+			"image": "danif.PNG",
+			"posts": [
+				{
+					"translations": {
+						"en": "PhD student",
+						"es": "Estudiante de doctorado"
+					}
+				},
+				{
+					"translations": {
+						"en": "Research Engineer",
+						"es": "Investigador técnico"
+					}
+				}
+			],
+			"email": "danifdezalvarez@gmail.com",
+			"linkedIN": "pub/daniel-fernández-álvarez/ab/121/817"
+		},
+		{
+			"name": "Herminio García González",
+			"short_name": "Herminio García",
+			"image": "herminio.jpg",
+			"posts": [
+				{
+					"translations": {
+						"en": "PhD Student",
+						"es": "Estudiante de doctorado"
+					}
+				},
+				{
+					"translations": {
+						"en": "Research Engineer",
+						"es": "Investigador técnico"
+					}
+				}
+			],
+			"email": "herminiogg@gmail.com",
+			"linkedIN": "pub/herminio-garcía-gonzález/78/a26/83a",
+			"website": "http://herminiogarcia.com/es/"
+		}
+	],
+	"collaborators": [
+		{
+			"name": "Juan Castro Fernández",
+			"short_name": "Juan Castro",
+			"image": "juan.png",
+			"posts": [
+				{
+					"translations": {
+						"en": "Engineer",
+						"es": "Ingeniero"
+					}
+				}
+			],
+			"email": "juan.castro@weso.es",
+			"phone": "+34 985103397",
+			"website": "http://www.juancastro.es",
+			"twitter": "castrofernandez",
+			"linkedIN": "in/castrofernandez"
+		},
+		{
+			"name": "Guillermo Infante Hernández",
+			"short_name": "Guillermo Infante",
+			"image": "guillermo.png",
+			"posts": [
+				{
+					"translations": {
+						"en": "Engineer",
+						"es": "Ingeniero"
+					}
+				}
+			],
+			"email": "infanteguillermo@uniovi.es",
+			"phone": "+34 985103397",
+			"linkedIN": "in/ginfante"
+		},
+		{
+			"name": "Jose María Álvarez Rodríguez",
+			"short_name": "Jose María Álvarez",
+			"image": "chema.jpg",
+			"posts": [
+				{
+					"translations": {
+						"en": "PhD",
+						"es": "Doctor"
+					}
+				}
+			],
+			"email": "joalvare@inf.uc3m.es",
+			"phone": "+34 985103397",
+			"linkedIN": "in/josemalvarez"
+		},
+		{
+			"name": "Alejandro Montes García",
+			"short_name": "Alejandro Montes",
+			"image": "alejandro.jpg",
+			"posts": [
+				{
+					"translations": {
+						"en": "PhD student",
+						"es": "Estudiante de doctorado"
+					}
+				}
+			],
+			"email": "alejandro.montes@weso.es",
+			"phone": "+34 985103397",
+			"linkedIN": "pub/alejandro-montes-garcía/30/609/718"
+		},
+		{
+			"name": "Weena Jímenez",
+			"short_name": "Weena Jímenez",
+			"image": "weena.jpg",
+			"posts": [
+				{
+					"translations": {
+						"en": "Engineer",
+						"es": "Ingeniera"
+					}
+				}
+			],
+			"email": "weenajimenez@gmail.com",
+			"phone": "+34 985103397",
+			"website": "http://www.weenajimenez.com/",
+			"linkedIN": "in/weenajimenez"
+		},
+		{
+			"name": "Pablo Abella Vallina",
+			"short_name": "Pablo Abella",
+			"image": "pablo.jpg",
+			"posts": [
+				{
+					"translations": {
+						"en": "Engineer",
+						"es": "Ingeniero"
+					}
+				}
+			],
+			"email": "peiblox@gmail.com",
+			"phone": "+34 985103397",
+			"linkedIN": "pub/pablo-abella-vallina/29/544/2a3"
+		},
+		{
+			"name": "Carlos Iglesias Moro",
+			"short_name": "Carlos Iglesias",
+			"image": "carlos.png",
+			"posts": [
+				{
+					"translations": {
+						"en": "Coordination and Management",
+						"es": "Coordinación y gestión"
+					}
+				}
+			],
+			"email": "contact@carlosiglesias.es",
+			"website": "http://carlosiglesias.es",
+			"phone": "+34 687917759",
+			"twitter": "carlosiglesias",
+			"linkedIN": "in/carlosiglesiasmoro"
+		},
+		{
+			"name": "Ignacio Fuertes Bernardo",
+			"short_name": "Ignacio Fuertes",
+			"image": "ignacio.png",
+			"posts": [
+				{
+					"translations": {
+						"en": "Engineer",
+						"es": "Ingeniero"
+					}
+				}
+			],
+			"email": "ifbyol@gmail.com",
+			"linkedIN": "pub/ignacio-fuertes-bernardo/46/146/2a8"
+		},
+		{
+			"name": "César Luis Alvargonzález",
+			"short_name": "César Luis",
+			"image": "cesar.png",
+			"posts": [
+				{
+					"translations": {
+						"en": "Engineer",
+						"es": "Ingeniero"
+					}
+				}
+			],
+			"email": "sisa989@gmail.com",
+			"twitter": "sisa989",
+			"linkedIN": "in/cesarla/es"
+		},
+		{
+			"name": "Jorge Yagüe París",
+			"short_name": "Jorge Yagüe",
+			"image": "jorge.jpg",
+			"posts": [
+				{
+					"translations": {
+						"en": "Engineer",
+						"es": "Ingeniero"
+					}
+				}
+			],
+			"email": "jorgeyp@gmail.com",
+			"linkedIN": "in/jorgeyp"
+		},
+		{
+			"name": "Miguel Otero Gafarelo",
+			"short_name": "Miguel Otero",
+			"image": "otero.jpg",
+			"posts": [
+				{
+					"translations": {
+						"en": "Engineer",
+						"es": "Ingeniero"
+					}
+				}
+			],
+			"email": "otero.gafarelo@gmail.com",
+			"linkedIN": "in/gafarelo"
+		},
+		{
+			"name": "Borja Garrido Bear",
+			"short_name": "Borja Garrido",
+			"image": "borja.jpg",
+			"posts": [
+				{
+					"translations": {
+						"en": "Engineer",
+						"es": "Ingeniero"
+					}
+				}
+			],
+			"email": "borja.gbear@gmail.com",
+			"linkedIN": "pub/borja-garrido/4a/a92/19b"
+		},
+		{
+			"name": "Cristian Álvarez Belaustegui",
+			"short_name": "Cristian Álvarez",
+			"image": "cristian.jpg",
+			"posts": [
+				{
+					"translations": {
+						"en": "Engineer",
+						"es": "Ingeniero"
+					}
+				}
+			],
+			"email": "cristian.alvb@gmail.com",
+			"linkedIN": "in/crbelaus"
+		},
+		{
+			"name": "Bernardo Martínez Garrido",
+			"short_name": "Bernardo Martínez",
+			"image": "bernardo.jpg",
+			"posts": [
+				{
+					"translations": {
+						"en": "Engineer",
+						"es": "Ingeniero"
+					}
+				}
+			],
+			"email": "programming@wandrell.com"
+		},
+		{
+			"name": "Victor Hugo Aravena Díaz",
+			"short_name": "Victor Aravena",
+			"image": "victor_hugo.jpg",
+			"posts": [
+				{
+					"translations": {
+						"en": "Engineer",
+						"es": "Ingeniero"
+					}
+				}
+			],
+			"email": "victor.aravena@ufrontera.cl",
+			"linkedIN": "in/victoraravena"
+		}
+
+	]
+}

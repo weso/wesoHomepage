@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multilingual Linked Open Data Patterns</title>
+<meta charset="utf-8" >
+<link href="images/favicon.ico" type="image/x-icon" rel="icon" />
+<link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="css/960.css" />
+<link rel="stylesheet" type="text/css" href="css/general.css" />
+<link rel="stylesheet" type="text/css" href="css/basic-jquery-slider.css" />	
+<link rel="stylesheet" type="text/css" href="MLODPatterns.css" />
+</head>
+<body>
+
+
+<header>
+ <h1>Multilingual Linked Open Data Patterns</h1>
+ <nav>
+   <ul>
+     <li><a href="index.html">Main</a></li>
+     <li><a href="catalog.html">Catalog</a></li>
+     <li><a href="references.html">References</a></li>
+	 <li><a href="index.html#MoreInfo">More information</a></li>
+ 	 <li><a href="index.html#Ack">Acknowledgments</a></li>
+   </ul>
+ </nav> 
+</header>
+
+ 
+
+<hgroup>
+<h1>Multilingual Linked Open Data Patterns</h1>
+<h2 id="authors">Authors: <a href="http://www.di.uniovi.es/~labra">Jose Emilio Labra Gayo</a>, 
+	<a href="http://aksw.org/DimitrisKontokostas.html">Dimitris Kontokostas</a> and 
+	<a href="http://www.informatik.uni-leipzig.de/~auer/">Sören Auer</a>
+</h2>
+</hgroup>
+
+
+ <h1>Table of Contents</h1>
+ <nav>
+ <ol>
+ <!-- <li><a href="Introduction.html">Introduction</a></li>
+ <li><a href="Concepts.html">Concepts of Internationalization</a></li> -->
+ <li><a href="#Intro">Introduction</a></li>
+ <li><a href="catalog.html">Catalog of Multilingual Linked Open Data patterns</a></li>
+ <li><a href="references.html">References</a></li>
+ <li><a href="#MoreInfo">More information</a></li>
+ <li><a href="#Ack">Acknowledgments</a></li>
+ </ol>
+ </nav>
+
+<h2 id="Intro">Introduction</h2>
+
+<p>This document presents a catalog of patterns to publish
+ Multilingual Linked Data and identify some issues 
+ that should be taken into account.
+</p>
+
+<p>The patterns are classified according to the common tasks that have to
+be performed to publish linked data: </p>
+
+<dl>
+<dt><a href="catalog.html#Naming">Naming</a></dt>
+<dd>This task refers to the process of URI design and dataset
+  description from a multilingual point of view.
+</dd>
+
+<dt><a href="catalog.html#Dereferencing">Dereferencing</a></dt>
+<dd>This task describes patterns to handle
+  dereferencing in a multilingual environment.
+  For example, should we return the same or different representation depending
+  on the language?</dd>
+
+<dt><a href="catalog.html#Labeling">Labeling</a></dt>
+<dd>When publishing linked data, there are a number of
+  reasons to label different resources.
+  In a multilingual setting, how can we provide labels for different languages?
+</dd>
+
+<dt><a href="catalog.html#LongerDescriptions">Longer descriptions</a></dt>
+<dd>We consider that resource labels are
+  different from longer textual information. Not all textual information
+  attached to resources are labels and in fact, longer descriptions, 
+  like comments, or even book chapters, can be
+  encoded in literals and contain textual information in different languages.</dd>
+  
+ <dt><a href="catalog.html#Linking">Linking</a></dt>
+ <dd>In a multilingual setting, it is possible to have
+  different resources representing the same thing in different languages. How
+  can we link those resources?</dd>
+  
+ <dt><a href="catalog.html#Reuse">Reuse</a></dt>
+ <dd>Linked data is all about reuse of data. When
+  multilingual data is linked to vocabularies, is it better to have
+  multilingual vocabularies or to localize existing ones?</dd>
+
+</dl>
+
+ <h2 id="Catalog">Catalog</h2>
+ 
+ <a href="catalog.html">Catalog of Multilingual Linked Open Data Patterns</a>
+
+ <h2 id="MoreInfo">More information</h2>
+   <ul>
+  <li><a href="http://www.semantic-web-journal.net/content/multilingual-linked-open-data-patterns">MLOD Patterns paper</a></li>
+  <li>Slides of talk: <a href="http://www.slideshare.net/jelabra/multlingual-linked-data-patterns">Multilingual Linked Open Data Patterns</a>
+        (<a href="http://www.multilingualweb.eu/en/documents/rome-workshop/rome-program">W3c Multilingual Web Workshop, Rome</a>)
+  <li>Slides of talk: 
+  	<a href="http://www.slideshare.net/jelabra/mlode-multilingual-data">Best practices for Multilingual Linked Open Data</a> 
+  		(<a href="http://sabre2012.infai.org/mlode">MLODE 2012</a>)
+  <li>Slides of talk: <a href="http://www.slideshare.net/jelabra/best-practices-for-multilingual-linked-open-data">Best practices for Multilingual Linked Open Data</a> 
+  		(<a href="http://www.multilingualweb.eu/en/documents/dublin-workshop">W3c Workshop on Multilingual Web </a>)
+  <li>Video: <a href="http://videolectures.net/w3cworkshop2012_labra_gayo_data/">Video on Best practices for Multilingual Linked Open Data</a> 
+  		(<a href="http://www.multilingualweb.eu/en/documents/dublin-workshop">W3c Workshop on Multilingual Web </a>)
+  </ul>
+  
+<h2 id="Ack">Acknowledgments</h2>
+This work has been partially funded by Spanish project MICINN-12-TIN2011-27871
+ROCAS (Reasoning on the Cloud by Applying Semantics). 
+Some of these best practices were presented at the
+<a href="http://www.multilingualweb.eu/en/documents/dublin-workshop/dublin-workshop-report">Multilingual Web Conference, Dublin 2012</a> 
+and at the
+<a href="http://sabre2012.infai.org/mlode">Multilingual Linked Open Data for Enterprises Workshop, Leipzig, 2012</a>.
+
+We appreciate the comments and discussions of the participants of those events.
+
+We would also like to acknowledge the comments given by: 
+Jose María Álvarez Rodríguez,
+Basil Ell,
+Manuel T. Carrasco, 
+Aidan Hogan, 
+Richard Cyganiak, 
+Sebastian Hellman,
+Mohamed Morsey,
+John McCrae,
+Pablo Mendes, 
+Elena Montiel
+and
+Jeni Tennison.
+  
+ 
+<footer>
+ <address>Author: <a href="http://www.di.uniovi.es/~labra">Jose Emilio Labra</a> 
+ <a href="http://www.weso.es"><img src="images/logo_small2.png" alt="WESO Web Semantics Oviedo Logo" id="Logo Weso" /></a> 
+ </address>
+</footer>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script><script type="text/javascript" src="/js/basic-jquery-slider.min.js"></script><script type="text/javascript" src="/js/general.js"></script>		<!--[if lt IE 9]>
+			<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+		<![endif]-->
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-32472098-1']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+	"host": "smtp.gmail.com",
+	"auth": true,
+	"username": "info@weso.es",
+	"password": "infoweso",
+	"port": 465
+}
